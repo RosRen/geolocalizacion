@@ -51,7 +51,7 @@ window.onload = () => {
         statusMessage.textContent = 'Ubicación obtenida con éxito.';
       })
       .catch(error => {
-        statusMessage.textContent = `Error al obtener la ubicación: ${error.message}`;
+        statusMessage.textContent = `Error al obtener la ubicación: ${error.message} verifica la ip ingresada`;
       });
   });
 };
